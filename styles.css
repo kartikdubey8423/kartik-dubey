@@ -2,7 +2,8 @@
 
 :root{
     --primary-color:#7c3aed;
-    --dark-gray: #64748b
+    --off-white : #f1f5f9;
+    --dark-gray: #64748b;
 }
 
 
@@ -96,4 +97,17 @@ hr{
     color: var(--primary-color);
 
 
+}
+
+.section {
+
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
